@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FunctionalPoC", "FunctionalPoC\FunctionalPoC.fsproj", "{5CEFDFE4-2DA2-4AC8-BF7C-72B9A56B801E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FunctionalPoC.Test", "FunctionalPoC.Test\FunctionalPoC.Test.fsproj", "{C32E80AB-9647-4421-A946-9C047EB67B1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F8AE31C8-D05C-4E36-9BF3-ED4D36398917}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CEFDFE4-2DA2-4AC8-BF7C-72B9A56B801E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEFDFE4-2DA2-4AC8-BF7C-72B9A56B801E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEFDFE4-2DA2-4AC8-BF7C-72B9A56B801E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEFDFE4-2DA2-4AC8-BF7C-72B9A56B801E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32E80AB-9647-4421-A946-9C047EB67B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32E80AB-9647-4421-A946-9C047EB67B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32E80AB-9647-4421-A946-9C047EB67B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32E80AB-9647-4421-A946-9C047EB67B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
